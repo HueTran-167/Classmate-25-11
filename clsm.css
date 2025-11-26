@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #1d2d50;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 18px 40px;
+    background: #e6f4fc; 
+    border-bottom: 0px solid rgba(0,0,0,0.04);
+}
+
+.logo-classmate {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3b7cff;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 28px; 
+}
+.dieu-huong {
+    display: flex;
+    gap: 30px; 
+}
+
+.dieu-huong a  {
+    text-decoration: none;
+    color: #1d2d50; 
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button-group button {
+    margin-left: 10px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-login {
+    background: transparent;
+    color: #1d2d50;
+    padding-left: 100px;
+}
+
+.btn-signup {
+    background: #3b7cff;
+    color: #fff;
+    padding-left: 100px;
+}
+
+
+/* Tiêu đề */
+.Tieu-de {
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 10px;
+    color: #072d43;
+}
+.Tieu-de p {
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    color: #81b1c8;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/* Nút CTA */
+.Nut-CTA {
+    text-align: center;
+}
+.Nut-CTA button {
+    padding: 12px 22px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-LM {
+    background: white;
+    border: 2px solid #bcd6ff;
+    color: #1d2d50;
+}
+
+.btn-TFF {
+    background: #2a95df;
+    color: white;
+}
+
+/* Video Section */
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.video-container {
+    width: 70%;
+    height: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    gap: 40px;
+    text-align: left;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+.video-description {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+/* Teacher */
+.teacher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 120px;
+    }
+
+.text-block {
+    width: 100%;
+}
+
+.text-block h1 {
+    font-size: 42px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    color: #0b1e33;
+}
+
+.text-block p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #536a89;
+}
+
+.text-block h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #0d1b2a;
+}
+
+.icon-list {
+    list-style: none;
+}
+
+.icon-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #1b263b;
+}
+
+.icon-list .icon {
+    background: #e5f2ff;
+    padding: 10px 12px;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #2c7bff;
+}
+
+.image-teacher img {
+    width: 1000px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Class-Help */
+.Class-Help {
+    padding: 80px 120px;
+    margin-top: 40px;
+}
+
+.help-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.help-text p {
+    font-size: 20px;
+    color: #536a89;
+    margin-bottom: 60px;
+}
+
+.tinh-nang {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 40px;
+    width: 55%;
+}
+
+.tinh-nang-item {
+    /* display: flex;
+    align-items: flex-start; */
+    max-width: 500px;
+}
+
+.tinh-nang-item .icon {
+    font-size: 32px;
+    background-color: #b3cdf6;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+ .tinh-nang-item .icon {
+    font-size: 32px;
+    background: #e8f1ff;
+    padding: 14px;
+    border-radius: 50%;
+    color: #3b7cff;
+    margin-right: 18px;
+}
+
+.tinh-nang-item h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #0d1b2a;
+    margin-top: 20px;
+}
+
+.tinh-nang-item p {
+    font-size: 16px;
+    color: #5c6f8a;
+}
+
+.laptop {
+    margin-top: -400px;
+    float: right;
+    transform: scale(0.9);
+}
+.laptop-image img {
+    width: 55%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+}
+ 
+/* How Classmate Work */
+.hcw {
+    text-align: center;
+    padding: 100px 20px 40px;
+    margin-top: 400px;
+}
+.hcw h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #426cde;
+}
+.hcw h2 {
+    font-size: 60px;
+}
+
+.hcw p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.eycd {
+    padding: 80px 20px 40px;
+}
+.eycd h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.eycd h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #536a89;
+    margin-left: 200px;
+}
+.eycd ul {
+    list-style: none;
+    padding: 0;
+}
+.eycd ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+
+.class-setting {
+    margin-top: -500px;
+    float: right;
+    transform: scale(0.9);
+}
+
+/* Chat-to-Customer */
+.chat-to-cus {
+    margin-top: 400px;
+    transform: scale(0.9);
+}
+
+.Chat {
+    float: right;
+    transform: scale(0.9);
+}
+
+.Chat h2 {
+    font-size: 60px;
+    margin-top: -500px;
+    margin-right: 500px;
+}
+.Chat p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Get Your Teaching Package */
+.gytp {
+    padding: 80px 20px 40px;
+}
+.gytp h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top: 200px;
+}
+
+.gytp p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #536a89;
+    margin-left: 200px;
+}
+.gytp ul {
+    list-style: none;
+    padding: 0;
+}
+.gytp ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+
+.GYTP {
+    margin-top: -500px;
+    float: right;
+    transform: scale(0.9);
+}
+
+/* Here's an Example Teaching Package */
+.hetp {
+    text-align: center;
+    padding: 100px 20px 40px;
+    margin-top: 400px;
+}
+.hetp h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #155986;
+}
+.hetp h2 {
+    font-size: 60px;
+}
+
+.hetp p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.img-hetp {
+   text-align: center;
+}
